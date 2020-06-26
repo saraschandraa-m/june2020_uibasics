@@ -15,12 +15,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
             android:text="Setup your plan"
             android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
             android:text="You can change it anytime in the settings" />
 
     </LinearLayout>
@@ -30,6 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.3"
+        android:layout_margin="10dp"
         android:background="@drawable/bg_rectangle"
         android:orientation="horizontal">
 
@@ -38,6 +43,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.65"
+            android:padding="10dp"
             android:orientation="vertical">
 
 
@@ -52,7 +58,7 @@
             <View
                 android:layout_width="100dp"
                 android:layout_height="2dp"
-                android:background="#ffffff"/>
+                android:background="#ffffff" />
 
 
             <TextView
@@ -82,8 +88,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@drawable/bg_rectangl2"
-        android:layout_weight="0.3">
+        android:layout_weight="0.3"
+        android:background="@drawable/bg_rectangl2">
 
     </LinearLayout>
 
@@ -91,6 +97,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.3">
+
 
     </LinearLayout>
 </LinearLayout>
